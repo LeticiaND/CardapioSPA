@@ -1,0 +1,65 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 100px; 
+}
+
+section {
+    text-align: center;
+    margin-top: 10px;
+}
+h4{
+    letter-spacing: 4px;
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+section img{
+    width: 600px;
+    border-radius: 30px;
+}
+
+.cardapio h4 {
+    display: inline-block;
+    width: 80%;
+    border-bottom: 1px solid black;
+}
+.caixa {
+    width: 365px;
+    display: inline-table;
+    box-shadow: 0em 0.3em 0.4em 0.1em rgb(238, 238, 238);
+    margin-bottom: 8%;
+}
+table {
+    width: 80%;
+    margin-left: 10%;
+
+}
+table tr td {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    color: black;
+}
+span {
+    color: red;
+}
+.title {
+    text-align: center;
+    height: 45px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+}
